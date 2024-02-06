@@ -10,7 +10,7 @@ const MainNews = () => {
             <div className="sm:col-span-5" key={item.id}>
               <a href="#">
                 <div
-                  className="bg-cover text-center overflow-hidden"
+                  className="bg-cover text-center overflow-hidden bg-gray-500"
                   style={{
                     minHeight: "300px",
                     backgroundImage: ` url(${item.image})`,

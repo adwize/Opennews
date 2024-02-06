@@ -11,7 +11,7 @@ const NextMainComponents = ({ id, imgurl, title }: Props) => {
       <div className="" key={id}>
         <Link href="/">
           <div
-            className="h-40 bg-cover text-center overflow-hidden"
+            className="h-40 bg-cover text-center overflow-hidden bg-gray-500"
             style={{
               backgroundImage: ` url(${imgurl})`,
             }}
