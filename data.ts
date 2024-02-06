@@ -33,4 +33,22 @@ export const NextMain: NextMainType[] = [
     image:
       "https://cdn.asriran.com/files/fa/views/1402/11/17/1754573_977-1-470.jpg",
   },
+  {
+    id: 4,
+    title: "اتینا ؛ فناوری جدید آمریکا برای شناسایی موشک های گرمایاب (+عکس)",
+    image:
+      "https://cdn.asriran.com/files/fa/news/1402/11/16/1754299_358.jpg",
+  },
+  {
+    id: 5,
+    title: "بازگشت کنترل حماس به شمال غزه بعد از عقب نشینی اسرائیل / استقرار پلیس حماس و پرداخت حقوق 200 دلاری",
+    image:
+      "https://cdn.asriran.com/files/fa/news/1402/11/16/1753615_895.jpg",
+  },
+  {
+    id: 6,
+    title: "هواداران عرب در آرزوی فینال تمام عربی!",
+    image:
+      "https://cdn.asriran.com/files/fa/views/1402/11/17/1755287_538-1-470.jpg",
+  },
 ];
