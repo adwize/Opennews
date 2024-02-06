@@ -1,4 +1,4 @@
-import { MainSecType, NextMainType } from "./types/collection";
+import { MainSecType, NextMainType ,SlidesSecType } from "./types/collection";
 
 export const MainSec: MainSecType[] = [
   {
@@ -50,5 +50,44 @@ export const NextMain: NextMainType[] = [
     title: "هواداران عرب در آرزوی فینال تمام عربی!",
     image:
       "https://cdn.asriran.com/files/fa/views/1402/11/17/1755287_538-1-470.jpg",
+  },
+];
+
+export const SlidesSec: SlidesSecType[] = [
+  {
+    id: 1,
+    title:
+      "مرگ رییس جمهور سابق شیلی در سانحه هوایی",
+    image:
+      "https://cdn.asriran.com/files/fa/news/1402/11/18/1755694_986.jpg",
+    categories: "شیلی",
+    date:"10 May"
+  },
+  {
+    id: 2,
+    title:
+      "تبدیل عمیق‌ترین معدن اروپا به باتری گرانشی",
+    image:
+      "https://cdn.asriran.com/files/fa/views/1402/11/17/1755207_395-1-470.jpg",
+    categories: "اروپا",
+    date:"10 May"
+  },
+  {
+    id: 3,
+    title:
+      "آمار وحشتناک خط حمله اردن؛ 9 گل از 12 گل اردن روی خلاقیت دو بازیکن!",
+    image:
+      "https://cdn.asriran.com/files/fa/views/1402/11/17/1755662_571-1-470.jpg",
+    categories: "اردن؛",
+    date:"10 May"
+  },
+  {
+    id: 4,
+    title:
+      "جنگ روانی قطری ها آغاز شد؛ ۱۶۰۰ صندلی پراکنده برای هواداران ایران!",
+    image:
+      "https://cdn.asriran.com/files/fa/views/1402/11/18/1755670_709-1-470.jpg",
+    categories: "قطر",
+    date:"10 May"
   },
 ];

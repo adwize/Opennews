@@ -11,3 +11,11 @@ export interface NextMainType {
   title: string;
   image: string;
 }
+
+export interface SlidesSecType {
+  id: number;
+  title: string;
+  image: string;
+  categories: string;
+  date : string  ;
+}
